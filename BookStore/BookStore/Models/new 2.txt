@@ -1,0 +1,11 @@
+code Team foundation server  https://pratibhathimmoji.visualstudio.com/Pthimmoji_EventManagement/_versionControl
+Application Url-http://pthimmojievent.azurewebsites.net
+
+
+https://pratibhathimmoji.visualstudio.com/Pthimmoji_WebAPI/_versionControl
+
+
+
+<script src="https://code.angularjs.org/1.5.9/angular.js"></script
+
+http://localhost:44231/Default.html

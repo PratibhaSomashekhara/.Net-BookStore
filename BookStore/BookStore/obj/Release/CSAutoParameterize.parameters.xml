@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=aspnet-BookStore-20161120021728;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prati\\Documents\\Visual\ Studio\ 2015\\Projects\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="BookStore-Web.config Connection String" description="BookStore Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BookStore.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prati\\Documents\\Visual\ Studio\ 2015\\Projects\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookStore']/@connectionString" />
+  </parameter>
+  <parameter name="BookStore_DatabasePublish-Web.config Connection String" description="BookStore_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="BookStore_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prati\\Documents\\Visual\ Studio\ 2015\\Projects\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookStore_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
